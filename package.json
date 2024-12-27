@@ -1,0 +1,22 @@
+{
+  "name": "lua-to",
+  "version": "1.0.0",
+  "description": "Lua benzeri bir dilden JavaScript'e transpiler",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli.ts",
+    "test": "ts-node src/cli.ts examples/test.lua dist/output.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "directories": {
+    "example": "examples"
+  }
+}
